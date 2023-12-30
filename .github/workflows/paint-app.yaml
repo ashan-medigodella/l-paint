@@ -1,4 +1,4 @@
-name: Simple Paint App
+name: Paint App Workflow
 
 on:
   push:
