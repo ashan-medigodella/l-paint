@@ -41,10 +41,10 @@ canvas.bind('<Button>', get_press)
 canvas.bind('<ButtonRelease>', get_release)
 
 # Create widgets
-label = tk.Label(window, text='draw a line')
+label = tk.Label(window, text='Draw Away!')
 label.pack(padx=10, pady=10)
 
-button = tk.Button(window, text='clear canvas', command=clear_canvas)
+button = tk.Button(window, text='Clear Canvas', command=clear_canvas)
 button.pack(padx=10, pady=10)
 
 # Start the Tkinter event loop
